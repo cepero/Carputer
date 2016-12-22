@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	width: 100%;
+	min-height: 100%;
+}
+
+body {
+	width: 97%;
+	height: 97%;
+	background-color: #000000;
+	overflow:hidden;
+}
+
+#contentScrollable{
+	width: 97%;
+	height: 97%;
+	overflow-y: scroll;
+}
+
+#cache{
+	width: 97%;
+	height: 97%;
+	color:red;
+	display:none;
+}
+
+#FondoSpeed{
+	position: absolute;
+	z-index:-1;
+}
+
+#RellenoSpeed{
+	position: absolute;
+	left: 12px;
+	z-index:-1;
+}
+
+#NumerosSpeed{
+	position: absolute;
+	top:-25px;
+	z-index:-1;
+}
+
+#NumeroSpeedActual{
+	position: absolute;
+	top: 160px;
+	left: 395px;
+	font-size:70px;
+	font-famiy:"Arial Black", "Arial Bold", Gadget, sans-serif;
+	color:white;
+}
+
+#ThrotleSpeed{
+	position: absolute;
+	z-index:-1;
+}
+
+#FondoRPM{
+	position: absolute;
+	left: 800px;
+	z-index:-1;
+}
+
+#RellenoRPM{
+	position: absolute;
+	left: 800px;
+	z-index:-1;
+}
+
+#NumerosRPM{
+	position: absolute;
+	left: 800px;
+	z-index:-1;
+}
+
+#NumeroRPMActual{
+	position: absolute;
+        /*top: 165px;
+        left: 1130px;*/
+        font-size:70px;
+        font-famiy:"Arial Black", "Arial Bold", Gadget, sans-serif;
+        color:white;
+
+}
+
+#ThrotleRPM{
+	position:absolute;
+	left: 800px;
+	z-index:-1;
+}
+
+#Cerrar1{
+	position: absolute;
+	left: 750px;
+	z-index:-1;
+}
+
+#Cerrar2{
+	position: absolute;
+	left: 1550px;
+	z-index:-1;
+}
+
+#Derecha{
+	position: absolute;
+	left: 340px;
+	top: 310px;
+	width: 150px;
+	height: 70px;
+	/*border: solid 1px red;*/
+}
+
+#Izquierda{
+	position: absolute;
+	left: 1140px;
+	top: 310px;
+	width: 150px;
+	height: 70px;
+	/*border: solid 1px red;*/
+}

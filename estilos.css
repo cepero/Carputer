@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	width: 100%;
+	min-height: 100%;
+}
+
+body {
+	width: 99%;
+	height: 97%;
+	background-color: #000000;
+	background-image: url(Images/FondoInicio.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center; 
+	overflow: hidden;
+}
+
+.seleccionado{
+	background-image: url(Images/Seleccionada.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+
+.boton {
+	/*background-color: black;*/
+	width: 60%;
+	height: 30%;
+}
+
+#apagar {
+	width: 17%;
+	height: 51%;
+	float: left;
+	position: relative;
+	left: -0.4%;
+}
+
+#obd {
+	width: 17%;
+	height: 51%;
+	float: left;
+	position: relative;
+	left: -9.1%;
+	top: 25%; 
+}
+
+#movil {
+	width: 17%;
+	height: 51%;
+	float: left;
+	position: relative;
+	left: -17.7%;
+	top:50%;
+}
+
+#aplicaciones {
+	width: 17%;
+	height: 51%;
+	float: left;
+	position: relative;
+	left: -18.3%;
+	top:50%;
+}
+
+#musica {
+	width: 17%;
+	height: 51%;
+	float: left;
+	position: relative;
+	left: -26.8%;
+	top:24.8%;
+}
+
+#radio {
+	width: 17%;
+	height: 51%;
+	/*float: left;*/
+	position: relative;
+	left: 49.7%;
+	top: 50%;
+}
+
+#luces {
+	width: 17%;
+	height: 51%;
+	/*float: left;*/
+	position: relative;
+	left: 66.3%;
+	top: -1.2%;
+}
+
+#internet {
+	width: 17%;
+	height: 51%;
+	/*float: left;*/
+	position: relative;
+	left: 74.8%;
+	top:-77.4%;
+}
+
+#home {
+	width: 17%;
+	height: 51%;
+	/*float: left;*/
+	position: relative;
+	left: 83.2%;
+	top:-153.7%;
+}
+
+#botonObd {
+	float: left;
+	position: relative;
+	left: 20%;
+	top: 35%; 
+}
+
+
+#mic {
+	position: absolute;
+	z-index:-1;
+	width: 50px;
+	height: 50px;
+	top: 85%;
+	left: 10px;
+}
+
