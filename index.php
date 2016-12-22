@@ -102,28 +102,20 @@
 			});
 		});
 
-		//Se auto-inicia el reconocimiento por voz
-		<?php
-			//shell_exec("sudo modprobe uinput");
-			//shell_exec("sudo /usr/bin/pulseaudio --start --log-target=syslog --system=false");
-			//shell_exec("sudo export LD_LIBRARY_PATH=/usr/local/lib  ");
-			//shell_exec("sudo export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig ");
-			//shell_exec("pocketsphinx_continuous -hmm /usr/local/share/pocketsphinx/model/en-us/en-us -lm 0014.lm -dict 0014.dic -samprate 16000/8000/48000 -inmic yes -adcdev plughw:0,0 2>/dev/null | tee ./words.log");
-			//shell_exec("sudo python ./python/recognition.py");
-
-		?>
+		
 		</script>
 
 	</head>
 
     <body>
 		<?php
-                        shell_exec("sudo modprobe uinput");
-                        shell_exec("sudo /usr/bin/pulseaudio --start --log-target=syslog --system=false");
-                        shell_exec("sudo export LD_LIBRARY_PATH=/usr/local/lib  ");
-                        shell_exec("sudo export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig ");
-                        //shell_exec("pocketsphinx_continuous -hmm /usr/local/share/pocketsphinx/model/en-us/en-us -lm 0014.lm -dict 0014.dic -samprate 16000/8000/48000 -inmic yes -adcdev plughw:0,0 2>/dev/null | tee /var/www/html/carputer/words.log");
-                        //shell_exec("sudo -u www-data python /var/www/html/carputer/python/recognition.py");
+                        //Se auto-inicia el reconocimiento por voz
+						exec("sudo modprobe uinput");
+                        exec("sudo /usr/bin/pulseaudio --start --log-target=syslog --system=false");
+                        exec("sudo export LD_LIBRARY_PATH=/usr/local/lib  ");
+                        exec("sudo export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig ");
+                        //exec("pocketsphinx_continuous -hmm /usr/local/share/pocketsphinx/model/en-us/en-us -lm 0014.lm -dict 0014.dic -samprate 16000/8000/48000 -inmic yes -adcdev plughw:0,0 2>/dev/null | tee /var/www/html/carputer/words.log");
+                        //exec("sudo -u www-data /usr/bin/python /var/www/html/carputer/python/recognition.py");
 
                 ?>
 

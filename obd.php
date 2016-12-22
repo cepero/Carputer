@@ -30,10 +30,6 @@
 	exec("sudo rfcomm bind 0 00:0D:18:28:26:40");
 	sleep(10);
 	exec("sudo -u www-data /usr/bin/python /var/www/html/carputer/python/instantaneo.py");
-	//sleep(10);
-	//shell_exec("sudo python ./python/instantaneo.py");
-	//sleep(10);
-	//shell_exec("sudo python ./python/instantaneo.py");
 ?>
 
 

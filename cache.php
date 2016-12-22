@@ -21,7 +21,7 @@
 	//Reconocimiento de algunos comandos por voz
 	if(isset($_POST["escuchando"])){
 		$m->set('escuchando', $_POST["escuchando"]);
-		echo "ESCUCHANDLO";
+		echo "ESCUCHANDO";
 	}else{
 		echo "<p id=escuchando>".$m->get('escuchando')."</p>";
 	}
