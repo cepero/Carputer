@@ -14,5 +14,6 @@ El proyecto consta de tres partes principales:
   - Comunicación con el motor del vehículo para extracción, procesado y mostrado de parámetros propios de la conducción.
   - Control mediante comandos por voz para no interferir en la conducción y garantizar la seguridad de los ocupantes del vehículo.
   - Integración real en el vehículo del alumno.
+
 Sin embargo, también se han añadido, a modo de extras, algunas otras funcionalidades, como reproductor multimedia o acceso a Internet.
 
